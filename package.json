@@ -1,0 +1,21 @@
+{
+  "name": "lolimashiro_danmu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+      "lolimashiro_danmu": "/bin/lolimashiro_danmu.js"
+  },
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bilibili-ws-live": "^6.2.1",
+    "cac": "^6.7.12",
+    "picocolors": "^1.0.0"
+}
+}
